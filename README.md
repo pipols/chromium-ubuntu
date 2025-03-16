@@ -17,7 +17,7 @@
 1. Install Git & git clone script :
 ```
 sudo apt install git -y
-git clone https://github.com/shareithub/chromium-installer.git
+git clone https://github.com/shareithub/chromium-ubuntu.git
 ```
 2. Go to folder script & run scripts :
 ```
