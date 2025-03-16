@@ -31,3 +31,5 @@ sudo bash install.sh
 4. Done
 
 5. If you don't understand. You can follow the tutorial in this video:
+
+https://youtu.be/NaH47chJ6PE
