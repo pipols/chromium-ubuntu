@@ -12,6 +12,8 @@
 
 # YOUTUBE CHANNEL : [SHARE IT HUB](https://www.youtube.com/@SHAREITHUB_COM)
 
+# Buy VPS or RDP : [SHARE IT HUB STORE BOT](https://t.me/SHAREITHUBSTORE_BOT)
+
 # TUTORIAL :
 
 1. Install Git & git clone script :
