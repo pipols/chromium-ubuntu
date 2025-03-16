@@ -21,7 +21,7 @@ git clone https://github.com/shareithub/chromium-ubuntu.git
 ```
 2. Go to folder script & run scripts :
 ```
-cd chromium-installer
+cd chromium-ubuntu
 sudo bash install.sh
 ```
 3. Follow the instructions on the terminal
