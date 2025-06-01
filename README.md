@@ -1,35 +1,61 @@
-# TUTORIAL INSTALL CHROMIUM IN VPS UBUNTU !!
+# Руководство по установке Chromium на VPS с Ubuntu
 
-## Version Support :
+## Поддерживаемые версии Ubuntu
+- Ubuntu 18.04
+- Ubuntu 20.04
+- Ubuntu 22.04
 
-` UBUNTU 18.04`
-` UBUNTU 20.04`
-` UBUNTU 22.04`
+## Пошаговая инструкция по установке
 
-## JOIN COMMUNITY :
+### 1. Установите зависимости и клонируйте репозиторий
 
-# TELEGRAM CHANNEL : [SHARE IT HUB](https://t.me/SHAREITHUB_COM)
-
-# YOUTUBE CHANNEL : [SHARE IT HUB](https://www.youtube.com/@SHAREITHUB_COM)
-
-# Buy VPS or RDP : [SHARE IT HUB STORE BOT](https://t.me/SHAREITHUBSTORE_BOT)
-
-# TUTORIAL :
-
-1. Install Git & git clone script :
 ```
 sudo apt install git -y
 git clone https://github.com/shareithub/chromium-ubuntu.git
 ```
-2. Go to folder script & run scripts :
+### 2. Запустите скрипт установки
 ```
 cd chromium-ubuntu
 sudo bash install.sh
 ```
-3. Follow the instructions on the terminal
 
-4. Done
+### 3. Выберите опции установки
+Выберите 1 (Install Chromium)
 
-5. If you don't understand. You can follow the tutorial in this video:
+Введите имя пользователя для Chromium
 
-https://youtu.be/NaH47chJ6PE
+Задайте пароль для доступа
+
+Укажите часовой пояс (по умолчанию Europe/London)
+
+4. Получите доступ к Chromium
+После установки используйте:
+
+HTTP: http://ВАШ_IP:3010/
+
+HTTPS: https://ВАШ_IP:3011/
+
+Удаление Chromium
+```
+sudo bash install.sh
+```
+
+Выберите 2 (Uninstall Chromium)
+
+Особенности системы
+Автоматическая установка Docker (если отсутствует)
+
+Защита доступа паролем
+
+Автозапуск при перезагрузке сервера
+
+Выделение 1 ГБ памяти для браузера
+
+Корректная работа часовых поясов
+
+Системные требования
+Минимум 2 ГБ RAM
+
+2+ vCPU
+
+10 ГБ свободного места
