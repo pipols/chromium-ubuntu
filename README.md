@@ -11,7 +11,7 @@
 
 ```
 sudo apt install git -y
-git clone https://github.com/shareithub/chromium-ubuntu.git
+git clone https://github.com/pipols/chromium-ubuntu.git
 ```
 ### 2. Запустите скрипт установки
 ```
